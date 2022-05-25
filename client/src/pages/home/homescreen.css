@@ -1,0 +1,52 @@
+.homescreenWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 65px);
+}
+
+.hs1{
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hs1Wrapper {
+    color: #091c45;
+    font-size: 28px;
+    font-family: Inter;
+}
+.hs1Wrapper h2{
+    margin: 0px;
+}
+.hs1Wrapper button{
+    outline: none;
+    border: none;
+    background-color: #276cff;
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 40px;
+    transition: 0.2s all ease-in-out;
+}
+.hs1Wrapper button:hover {
+    box-shadow: -5px 9px 47px -17px #276cff;
+    -webkit-box-shadow: -5px 9px 47px -17px #276cff;
+    -moz-box-shadow: -5px 9px 47px -17px #276cff;
+}
+
+
+.hs2{
+    flex: 1;
+}
+
+.hs2 img{
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}

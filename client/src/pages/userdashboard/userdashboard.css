@@ -1,0 +1,134 @@
+.dashboard{
+    height: calc(100vh - 65px);
+    width: 100%;
+    /* background-color: #f0f2f5; */
+}
+
+.dashboard-wrapper{
+    margin: 0px 80px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.custom-file{
+    width: 100%;
+    border: 2px solid #4285f4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    padding: 5px 10px;
+}
+
+.custom-file-input{
+    display: none;
+}
+
+.custom-file-button{
+    color: white;
+    background-color: #4285f4;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputDiv{
+    display: flex;
+}
+
+.uploadDiv{
+    border: 2px solid #aaaaaa;
+    margin: 10px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    border-style: dashed;
+    width: 60%;
+}
+
+.upload-button{
+    width: 40%;
+    padding: 10px;
+    background-color: #958ee4;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.upload-button:hover{
+    background-color: #8e85e9;
+}
+
+.allfilesDiv{
+    width: 80%; 
+    margin-top: 50px;
+}
+
+.contentDiv {
+    display: flex;
+    border: 1px solid #aaaaaa;
+    font-weight: 500;
+}
+.contentDate{
+    flex: 0.2;
+    padding: 10px;
+    border-right: 1px solid #aaaaaa;
+}
+.contentHash{
+    flex: 0.5;
+    padding: 10px;
+    border-right: 1px solid #aaaaaa;
+    overflow: hidden;
+}
+.contentDown{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.allfilesDiv h1{
+    font-family: Roboto;
+    font-size: 25px;
+}
+.contentDown i{
+    color: #958ee4;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.contentDiv1 {
+    display: flex;
+    border: 1px solid #aaaaaa;
+    font-weight: 500;
+    color: #091c45;
+    background-color: #f0f2f5;
+}
+.contentDate1{
+    flex: 0.2;
+    padding: 10px;
+    border-right: 1px solid #aaaaaa;
+}
+.contentHash1{
+    flex: 0.5;
+    padding: 10px;
+    border-right: 1px solid #aaaaaa;
+    overflow: hidden;
+}
+.contentDown1{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.upldStatus{
+    padding: 20px;
+}
