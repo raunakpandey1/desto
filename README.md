@@ -8,8 +8,13 @@ Desto is a web application that allows us to quickly upload files as well as fol
 ## FEATURES
 
  - Web Application developed using MERN stack and Web3 storage.
+ - Decentralized storage.
+ - Share links instead of original data.
  - Login and Signup page.
+ - User login credentials are stored in MongoDB database.
  - Uploading files or folders to IPFS using Web3 Storage.
+ - Free to use.
+ _ User friendly.
  - **User Dashboard** : 
     - Only accessible after successful login.
     - To upload files.
